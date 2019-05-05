@@ -1,6 +1,6 @@
 {
   "images": {
-    "mouse": "https://images.koji-cdn.com/76a58d18-9031-4cf9-871c-b4701b0e2537/f4864534-ede5-40e9-ac53-a81df8a25d77.png"
+    "bird": "https://images.koji-cdn.com/76a58d18-9031-4cf9-871c-b4701b0e2537/f4864534-ede5-40e9-ac53-a81df8a25d77.png"
   },
   "@@editor": [
     {
@@ -10,9 +10,9 @@
       "source": "images.json",
       "fields": [
         {
-          "key": "mouse",
-          "name": "Icon",
-          "description": "Icon that spins on the page",
+          "key": "bird",
+          "name": "Bird Image",
+          "description": "The bird that shows up",
           "type": "image"
         }
       ]

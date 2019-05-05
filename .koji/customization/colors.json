@@ -1,7 +1,7 @@
 {
   "colors": {
-    "backgroundColor": "#3f62ae",
-    "textColor": "#ffffff"
+    "backgroundColor": "#486cbf",
+    "pipeColor": "#196919"
   },
   "@@editor": [
     {
@@ -11,9 +11,9 @@
       "source": "colors.json",
       "fields": [
         {
-          "key": "textColor",
-          "name": "Text color",
-          "description": "Default color for text",
+          "key": "pipeColor",
+          "name": "Pipe color",
+          "description": "Default color for pipes",
           "type": "color"
         },
         {
