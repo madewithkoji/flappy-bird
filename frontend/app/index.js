@@ -3,6 +3,8 @@
 // http://patreon.com/codingtrain
 // Code for: https://youtu.be/cXgA1d_E-jY&
 
+// Made into a Koji Template by Jones
+// https://gokoji.com/profile/jones
 
 var bird;
 var pipes = [];

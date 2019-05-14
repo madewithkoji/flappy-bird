@@ -20,7 +20,7 @@ Koji.pageLoad();
 window.Koji = Koji.config;
 
 // just a little bit hacky at the moment, but gosh darn if it dont work.
-require('script-loader!pages/HomePage/index.js');
+require('script-loader!app/index.js');
 
 // Object.entries(App).map(([name, module]) => {
 //   window[name] = module;
