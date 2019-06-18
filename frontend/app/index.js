@@ -14,11 +14,11 @@ function setup() {
   createCanvas(window.innerWidth, window.innerHeight);
   bird = new Bird();
   pipes.push(new Pipe());
-  birdImage = loadImage(Koji.images.bird);
+  birdImage = loadImage(Koji.config.images.bird);
 }
 
 function draw() {
-  background(Koji.colors.backgroundColor);
+  background(Koji.config.colors.backgroundColor);
 
   for (var i = pipes.length-1; i >= 0; i--) {
     pipes[i].show();
@@ -75,7 +75,7 @@ function Pipe() {
   }
 
   this.show = function() {
-    fill(Koji.colors.pipeColor);
+    fill(Koji.config.colors.pipeColor);
     if (this.highlight) {
       fill(255, 0, 0);
     }
